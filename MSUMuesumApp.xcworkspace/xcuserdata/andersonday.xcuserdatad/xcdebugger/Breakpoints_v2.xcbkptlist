@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MSUMuesumApp/HomeViewController.swift"
-            timestampString = "573324798.973196"
+            timestampString = "579103073.022631"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,13 +26,61 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MSUMuesumApp/HomeViewController.swift"
-            timestampString = "573324798.973623"
+            timestampString = "579103073.023118"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "HomeViewController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MSUMuesumApp.HomeViewController.card.getter : __C.MDCCard"
+                  moduleName = "MSUMuesumApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andersonday/sites/MSUMuseumApp/MSUMuesumApp/MSUMuesumApp/HomeViewController.swift"
+                  timestampString = "579103073.1223691"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MSUMuesumApp.HomeViewController.init(contentViewController: __C.UIViewController) -&gt; MSUMuesumApp.HomeViewController"
+                  moduleName = "MSUMuesumApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andersonday/sites/MSUMuseumApp/MSUMuesumApp/MSUMuesumApp/HomeViewController.swift"
+                  timestampString = "579103073.124166"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MSUMuesumApp/ClosestExhibitViewController.swift"
+            timestampString = "579103073.02347"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

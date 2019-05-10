@@ -8,6 +8,7 @@
 
 import UIKit
 import EstimoteProximitySDK
+import MapKit
 
 
 @UIApplicationMain
@@ -19,8 +20,10 @@ import EstimoteProximitySDK
     
     var ClosestExhibitVC: ClosestExhibitViewController?
     
+    var floorName = "No Beacon Found"
+    var roomName = "No Beacon Found"
     
-    var tag: String!
+    var tag = ""
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -52,9 +55,9 @@ import EstimoteProximitySDK
                 
                 print(context.attachments)
                 
-                self.tag = context.attachments["rooms"]
+                self.tag = context.attachments["roomName"]!
                 
-                return context.attachments["rooms"]!
+                return context.attachments["roomName"]!
                 
                 
             }
@@ -66,15 +69,22 @@ import EstimoteProximitySDK
             print("Bye bye, First floor!")
         }
         
-        let secondFloor = ProximityZone(tag: "secondFloor", range: .near)
+        
+        
+        
+        let secondFloor = ProximityZone(tag: "Second Floor", range: .near)
         secondFloor.onContextChange = { contexts in
             let floor: [String] = contexts.map { context in
                 print(context)
                 
-                //self.tag = context.attachments["test"]
-                self.tag = context.attachments["rooms"]
                 
-                return context.attachments["rooms"]!
+                self.floorName = context.tag
+                self.roomName = context.attachments["roomName"]!
+                
+                //self.tag = context.attachments["test"]
+                self.tag = context.attachments["roomName"]!
+                
+                return context.attachments["roomName"]!
                 
                 
             }

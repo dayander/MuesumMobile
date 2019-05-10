@@ -60,6 +60,23 @@
     <string>We'll show you what the closest exhibits are. With the "always" option,
         we can also alert you via notifications if you don't have the app open.</string>
     
+    
+    
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>example.com</key>
+            <dict>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
    
 </dict>
 </plist>

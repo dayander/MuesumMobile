@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1241C58622566D4C0033F060 /* QueryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1241C58522566D4C0033F060 /* QueryService.swift */; };
 		1265CBF8225291F400F7ED83 /* exhibit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265CBF7225291F400F7ED83 /* exhibit.swift */; };
 		1265CC0F225293E800F7ED83 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265CC0E225293E800F7ED83 /* ContainerViewController.swift */; };
 		126C0DEF22380E48007060CD /* ExhibitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126C0DEE22380E48007060CD /* ExhibitsViewController.swift */; };
@@ -184,6 +185,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1241C58522566D4C0033F060 /* QueryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryService.swift; sourceTree = "<group>"; };
 		1265CBF7225291F400F7ED83 /* exhibit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exhibit.swift; sourceTree = "<group>"; };
 		1265CC0E225293E800F7ED83 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		126C0DEE22380E48007060CD /* ExhibitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitsViewController.swift; sourceTree = "<group>"; };
@@ -245,6 +247,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1241C56F22566D130033F060 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1241C58522566D4C0033F060 /* QueryService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1241C587225678D30033F060 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1265CBF7225291F400F7ED83 /* exhibit.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		12CB92EE22204DCB00DA3E34 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +314,8 @@
 		12F18A0A22204B6100A9FA29 /* MSUMuesumApp */ = {
 			isa = PBXGroup;
 			children = (
+				1241C587225678D30033F060 /* models */,
+				1241C56F22566D130033F060 /* Networking */,
 				12F18A0B22204B6100A9FA29 /* AppDelegate.swift */,
 				12F18A0D22204B6100A9FA29 /* ViewController.swift */,
 				12F18A0F22204B6100A9FA29 /* Main.storyboard */,
@@ -310,7 +330,6 @@
 				12AEE4532224DC48006B097E /* BottomClosestExhibitTabController.swift */,
 				126C0DEE22380E48007060CD /* ExhibitsViewController.swift */,
 				128E430622412A2000FE64EA /* HomeTableViewController.swift */,
-				1265CBF7225291F400F7ED83 /* exhibit.swift */,
 				1265CC0E225293E800F7ED83 /* ContainerViewController.swift */,
 			);
 			path = MSUMuesumApp;
@@ -646,6 +665,7 @@
 				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -660,6 +680,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -695,6 +716,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1241C58622566D4C0033F060 /* QueryService.swift in Sources */,
 				12F18A0E22204B6100A9FA29 /* ViewController.swift in Sources */,
 				1285DD92222459AF002F901E /* GalleriesViewController.swift in Sources */,
 				1285DD7E22243F71002F901E /* MuseumNavController.swift in Sources */,
