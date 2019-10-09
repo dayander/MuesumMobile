@@ -1,16 +1,10 @@
-platform :ios, '12.0'
+platform :ios, '13.0'
 
 target 'MSUMuesumApp' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-  pod 'SwiftyJSON', '~> 4.0'
-  pod 'MDFInternationalization'
-  pod 'MDFTextAccessibility'
   pod 'MaterialComponents', '~> 78.0.0'
-  pod 'MotionAnimator'
-  pod 'MotionInterchange'
-  pod 'MotionTransitioning'
-  pod 'ESTabBarController-swift'
   pod 'EstimoteProximitySDK'
+  pod 'SnapKit'
 
 end

@@ -1,8 +1,7 @@
 PODS:
-  - ESTabBarController-swift (2.7)
-  - EstimoteBluetoothScanning (1.0.2)
-  - EstimoteProximitySDK (1.4.0):
-    - EstimoteBluetoothScanning (>= 0.2)
+  - EstimoteBluetoothScanning (1.0.6)
+  - EstimoteProximitySDK (1.5.0):
+    - EstimoteBluetoothScanning (~> 1.0.6)
   - MaterialComponents (78.0.1):
     - MaterialComponents/ActionSheet (= 78.0.1)
     - MaterialComponents/ActivityIndicator (= 78.0.1)
@@ -518,22 +517,15 @@ PODS:
     - MotionInterchange (~> 1.6)
   - MotionInterchange (1.6.0)
   - MotionTransitioning (5.0.0)
-  - SwiftyJSON (4.3.0)
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
-  - ESTabBarController-swift
   - EstimoteProximitySDK
   - MaterialComponents (~> 78.0.0)
-  - MDFInternationalization
-  - MDFTextAccessibility
-  - MotionAnimator
-  - MotionInterchange
-  - MotionTransitioning
-  - SwiftyJSON (~> 4.0)
+  - SnapKit
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - ESTabBarController-swift
+  trunk:
     - EstimoteBluetoothScanning
     - EstimoteProximitySDK
     - MaterialComponents
@@ -542,20 +534,19 @@ SPEC REPOS:
     - MotionAnimator
     - MotionInterchange
     - MotionTransitioning
-    - SwiftyJSON
+    - SnapKit
 
 SPEC CHECKSUMS:
-  ESTabBarController-swift: 4fb52ad03d94d0717ef97bc9eb09a5abfdded0a2
-  EstimoteBluetoothScanning: 8e3f085001b20acd40f465de2e8b7ac849493870
-  EstimoteProximitySDK: 45d453e37c1ed1c3f36275caef55a6f86677b22b
+  EstimoteBluetoothScanning: a8bfa6dfb36d0e7a2a811adbcfb3b87b3e343482
+  EstimoteProximitySDK: b8b4d96ed872431e7941863d009bb99d28ceaf99
   MaterialComponents: 1e1d1a8356bbf2b80f6a0aa32018cda8ac8065a5
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
   MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
   MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
   MotionTransitioning: 23d25edc2f4606efb922403cbac6d81af37aa33a
-  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: c67e23c9b252cde0b818b359f1eec1571c65734c
+PODFILE CHECKSUM: 6b6d6b71f908c44afb17642acaf4ac429f36394a
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.8.1

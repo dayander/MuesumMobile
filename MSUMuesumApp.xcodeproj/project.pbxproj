@@ -3,20 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1241C58622566D4C0033F060 /* QueryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1241C58522566D4C0033F060 /* QueryService.swift */; };
+		1227D306234BDC0E00862CEB /* ExhibitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1227D305234BDC0E00862CEB /* ExhibitTableViewCell.swift */; };
+		1227D308234BDDFE00862CEB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1227D307234BDDFE00862CEB /* Colors.swift */; };
+		1227D30A234BF54600862CEB /* SingleExhibitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1227D309234BF54600862CEB /* SingleExhibitViewController.swift */; };
 		1265CBF8225291F400F7ED83 /* exhibit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265CBF7225291F400F7ED83 /* exhibit.swift */; };
 		1265CC0F225293E800F7ED83 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265CC0E225293E800F7ED83 /* ContainerViewController.swift */; };
 		126C0DEF22380E48007060CD /* ExhibitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126C0DEE22380E48007060CD /* ExhibitsViewController.swift */; };
 		1285DD7E22243F71002F901E /* MuseumNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285DD7D22243F71002F901E /* MuseumNavController.swift */; };
 		1285DD92222459AF002F901E /* GalleriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285DD91222459AF002F901E /* GalleriesViewController.swift */; };
 		1285DD9422246A4B002F901E /* MainColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285DD9322246A4B002F901E /* MainColors.swift */; };
-		128E430722412A2000FE64EA /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128E430622412A2000FE64EA /* HomeTableViewController.swift */; };
 		12AEE43F2224CBAF006B097E /* ClosestExhibitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEE43E2224CBAF006B097E /* ClosestExhibitViewController.swift */; };
 		12AEE4542224DC48006B097E /* BottomClosestExhibitTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEE4532224DC48006B097E /* BottomClosestExhibitTabController.swift */; };
+		12BD9AB4234518080010D55F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD9AB3234518080010D55F /* Movie.swift */; };
+		12BD9ACC2345183C0010D55F /* MovieEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD9ACB2345183C0010D55F /* MovieEndPoint.swift */; };
+		12BD9ACE234545900010D55F /* Museum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD9ACD234545900010D55F /* Museum.swift */; };
+		12BD9AD0234545E10010D55F /* RoomName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD9ACF234545E10010D55F /* RoomName.swift */; };
+		12BD9AD2234545ED0010D55F /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD9AD1234545ED0010D55F /* Payload.swift */; };
+		12BD9AD42345469E0010D55F /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD9AD32345469E0010D55F /* Beacon.swift */; };
+		12BD9AD6234546CE0010D55F /* AppSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD9AD5234546CE0010D55F /* AppSection.swift */; };
+		12BD9AD8234546EA0010D55F /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD9AD7234546EA0010D55F /* Image.swift */; };
+		12BD9ADA23467B020010D55F /* RoomModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD9AD923467B020010D55F /* RoomModelController.swift */; };
+		12BD9ADD23468AF70010D55F /* FloorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD9ADC23468AF70010D55F /* FloorsViewController.swift */; };
+		12BD9ADF2346927E0010D55F /* SpecificExhibitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD9ADE2346927E0010D55F /* SpecificExhibitsViewController.swift */; };
+		12BD9AE22347B6A50010D55F /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD9AE12347B6A50010D55F /* SpinnerViewController.swift */; };
+		12BD9AE42347B9740010D55F /* ExhibitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD9AE32347B9740010D55F /* ExhibitsTableViewController.swift */; };
+		12C61B302343EF2200F0DED4 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C61B2F2343EF2200F0DED4 /* EndPointType.swift */; };
+		12C61B322343F0FC00F0DED4 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C61B312343F0FC00F0DED4 /* HTTPMethod.swift */; };
+		12C61B342343F16A00F0DED4 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C61B332343F16A00F0DED4 /* HTTPTask.swift */; };
+		12C61B362343F21B00F0DED4 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C61B352343F21B00F0DED4 /* ParameterEncoding.swift */; };
+		12C61B382343F69800F0DED4 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C61B372343F69800F0DED4 /* URLParameterEncoder.swift */; };
+		12C61B3A2343F9F900F0DED4 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C61B392343F9F900F0DED4 /* NetworkRouter.swift */; };
+		12C61B3C2343FAA600F0DED4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C61B3B2343FAA600F0DED4 /* Router.swift */; };
+		12C61B3E2344094100F0DED4 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C61B3D2344094100F0DED4 /* JSONParameterEncoder.swift */; };
+		12C61B4023440E0500F0DED4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C61B3F23440E0500F0DED4 /* NetworkManager.swift */; };
+		12C61B4223440F4C00F0DED4 /* RoomsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C61B4123440F4C00F0DED4 /* RoomsEndpoint.swift */; };
+		12C61B442344120B00F0DED4 /* Rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C61B432344120B00F0DED4 /* Rooms.swift */; };
 		12CB932622204DE100DA3E34 /* MaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CB930322204DCB00DA3E34 /* MaterialComponents.framework */; };
 		12CB932722204DE100DA3E34 /* MDFInternationalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CB931B22204DCB00DA3E34 /* MDFInternationalization.framework */; };
 		12CB932822204DE100DA3E34 /* MDFTextAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CB931D22204DCB00DA3E34 /* MDFTextAccessibility.framework */; };
@@ -24,6 +49,7 @@
 		12CB932A22204DE100DA3E34 /* MotionInterchange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CB932122204DCB00DA3E34 /* MotionInterchange.framework */; };
 		12CB932B22204DE100DA3E34 /* MotionTransitioning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CB932322204DCB00DA3E34 /* MotionTransitioning.framework */; };
 		12CB93312220520600DA3E34 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CB93302220520600DA3E34 /* HomeViewController.swift */; };
+		12D830AC234BA7940008DF6A /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D830AB234BA7940008DF6A /* RoomsViewController.swift */; };
 		12F18A0C22204B6100A9FA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F18A0B22204B6100A9FA29 /* AppDelegate.swift */; };
 		12F18A0E22204B6100A9FA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F18A0D22204B6100A9FA29 /* ViewController.swift */; };
 		12F18A1122204B6100A9FA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F18A0F22204B6100A9FA29 /* Main.storyboard */; };
@@ -35,12 +61,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		12AEE4682224DC49006B097E /* PBXContainerItemProxy */ = {
+		1227D303234BDBF000862CEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 12CB92ED22204DCB00DA3E34 /* Pods.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B563A16CB6095E9F5FC63CDB734BB9E0;
-			remoteInfo = "ESTabBarController-swift";
+			remoteGlobalIDString = 979486118B3E90C08386079D57962701;
+			remoteInfo = SnapKit;
 		};
 		12CB930222204DCB00DA3E34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -185,18 +211,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1241C58522566D4C0033F060 /* QueryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryService.swift; sourceTree = "<group>"; };
+		1227D305234BDC0E00862CEB /* ExhibitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitTableViewCell.swift; sourceTree = "<group>"; };
+		1227D307234BDDFE00862CEB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		1227D309234BF54600862CEB /* SingleExhibitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleExhibitViewController.swift; sourceTree = "<group>"; };
 		1265CBF7225291F400F7ED83 /* exhibit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exhibit.swift; sourceTree = "<group>"; };
 		1265CC0E225293E800F7ED83 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		126C0DEE22380E48007060CD /* ExhibitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitsViewController.swift; sourceTree = "<group>"; };
 		1285DD7D22243F71002F901E /* MuseumNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumNavController.swift; sourceTree = "<group>"; };
 		1285DD91222459AF002F901E /* GalleriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleriesViewController.swift; sourceTree = "<group>"; };
 		1285DD9322246A4B002F901E /* MainColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainColors.swift; sourceTree = "<group>"; };
-		128E430622412A2000FE64EA /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		12AEE43E2224CBAF006B097E /* ClosestExhibitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosestExhibitViewController.swift; sourceTree = "<group>"; };
 		12AEE4532224DC48006B097E /* BottomClosestExhibitTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomClosestExhibitTabController.swift; sourceTree = "<group>"; };
+		12BD9AB3234518080010D55F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		12BD9ACB2345183C0010D55F /* MovieEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEndPoint.swift; sourceTree = "<group>"; };
+		12BD9ACD234545900010D55F /* Museum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum.swift; sourceTree = "<group>"; };
+		12BD9ACF234545E10010D55F /* RoomName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomName.swift; sourceTree = "<group>"; };
+		12BD9AD1234545ED0010D55F /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
+		12BD9AD32345469E0010D55F /* Beacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		12BD9AD5234546CE0010D55F /* AppSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSection.swift; sourceTree = "<group>"; };
+		12BD9AD7234546EA0010D55F /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		12BD9AD923467B020010D55F /* RoomModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomModelController.swift; sourceTree = "<group>"; };
+		12BD9ADC23468AF70010D55F /* FloorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorsViewController.swift; sourceTree = "<group>"; };
+		12BD9ADE2346927E0010D55F /* SpecificExhibitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificExhibitsViewController.swift; sourceTree = "<group>"; };
+		12BD9AE12347B6A50010D55F /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		12BD9AE32347B9740010D55F /* ExhibitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitsTableViewController.swift; sourceTree = "<group>"; };
+		12C61B2F2343EF2200F0DED4 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		12C61B312343F0FC00F0DED4 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		12C61B332343F16A00F0DED4 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		12C61B352343F21B00F0DED4 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		12C61B372343F69800F0DED4 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		12C61B392343F9F900F0DED4 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		12C61B3B2343FAA600F0DED4 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		12C61B3D2344094100F0DED4 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		12C61B3F23440E0500F0DED4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		12C61B4123440F4C00F0DED4 /* RoomsEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsEndpoint.swift; sourceTree = "<group>"; };
+		12C61B432344120B00F0DED4 /* Rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rooms.swift; sourceTree = "<group>"; };
 		12CB92ED22204DCB00DA3E34 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		12CB93302220520600DA3E34 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		12D830AB234BA7940008DF6A /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
 		12F18A0822204B6100A9FA29 /* MSUMuesumApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSUMuesumApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F18A0B22204B6100A9FA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12F18A0D22204B6100A9FA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -247,10 +299,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1227D2ED234BDBF000862CEB /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				1227D305234BDC0E00862CEB /* ExhibitTableViewCell.swift */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
 		1241C56F22566D130033F060 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				1241C58522566D4C0033F060 /* QueryService.swift */,
+				12C61B2E2343EEF500F0DED4 /* Encoding */,
+				12C61B2D2343EEEE00F0DED4 /* Service */,
+				12C61B2C2343EEE000F0DED4 /* Manager */,
+				12C61B132343EED100F0DED4 /* Endpoint */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -259,14 +322,93 @@
 			isa = PBXGroup;
 			children = (
 				1265CBF7225291F400F7ED83 /* exhibit.swift */,
+				12BD9AD7234546EA0010D55F /* Image.swift */,
+				12BD9AD5234546CE0010D55F /* AppSection.swift */,
+				12BD9AD32345469E0010D55F /* Beacon.swift */,
+				12C61B432344120B00F0DED4 /* Rooms.swift */,
+				12BD9AB3234518080010D55F /* Movie.swift */,
+				12BD9ACD234545900010D55F /* Museum.swift */,
+				12BD9ACF234545E10010D55F /* RoomName.swift */,
+				12BD9AD1234545ED0010D55F /* Payload.swift */,
+				12BD9AD923467B020010D55F /* RoomModelController.swift */,
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		12BD9ADB23468ABB0010D55F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1227D2ED234BDBF000862CEB /* Tables */,
+				12BD9AE02347B68E0010D55F /* Util */,
+				12F18A0D22204B6100A9FA29 /* ViewController.swift */,
+				12CB93302220520600DA3E34 /* HomeViewController.swift */,
+				1285DD91222459AF002F901E /* GalleriesViewController.swift */,
+				1285DD7D22243F71002F901E /* MuseumNavController.swift */,
+				1285DD9322246A4B002F901E /* MainColors.swift */,
+				12AEE43E2224CBAF006B097E /* ClosestExhibitViewController.swift */,
+				12AEE4532224DC48006B097E /* BottomClosestExhibitTabController.swift */,
+				126C0DEE22380E48007060CD /* ExhibitsViewController.swift */,
+				1265CC0E225293E800F7ED83 /* ContainerViewController.swift */,
+				12BD9ADC23468AF70010D55F /* FloorsViewController.swift */,
+				12BD9ADE2346927E0010D55F /* SpecificExhibitsViewController.swift */,
+				12BD9AE32347B9740010D55F /* ExhibitsTableViewController.swift */,
+				12D830AB234BA7940008DF6A /* RoomsViewController.swift */,
+				1227D309234BF54600862CEB /* SingleExhibitViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		12BD9AE02347B68E0010D55F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				12BD9AE12347B6A50010D55F /* SpinnerViewController.swift */,
+				1227D307234BDDFE00862CEB /* Colors.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		12C61B132343EED100F0DED4 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				12C61B2F2343EF2200F0DED4 /* EndPointType.swift */,
+				12C61B4123440F4C00F0DED4 /* RoomsEndpoint.swift */,
+				12BD9ACB2345183C0010D55F /* MovieEndPoint.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		12C61B2C2343EEE000F0DED4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				12C61B3F23440E0500F0DED4 /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		12C61B2D2343EEEE00F0DED4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				12C61B312343F0FC00F0DED4 /* HTTPMethod.swift */,
+				12C61B332343F16A00F0DED4 /* HTTPTask.swift */,
+				12C61B392343F9F900F0DED4 /* NetworkRouter.swift */,
+				12C61B3B2343FAA600F0DED4 /* Router.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		12C61B2E2343EEF500F0DED4 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				12C61B352343F21B00F0DED4 /* ParameterEncoding.swift */,
+				12C61B372343F69800F0DED4 /* URLParameterEncoder.swift */,
+				12C61B3D2344094100F0DED4 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
 			sourceTree = "<group>";
 		};
 		12CB92EE22204DCB00DA3E34 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				12AEE4692224DC49006B097E /* ESTabBarController_swift.framework */,
 				12CB930322204DCB00DA3E34 /* MaterialComponents.framework */,
 				12CB930522204DCB00DA3E34 /* MaterialIcons_ic_arrow_back.bundle */,
 				12CB930722204DCB00DA3E34 /* MaterialIcons_ic_check.bundle */,
@@ -285,6 +427,7 @@
 				12CB932122204DCB00DA3E34 /* MotionInterchange.framework */,
 				12CB932322204DCB00DA3E34 /* MotionTransitioning.framework */,
 				12CB932522204DCB00DA3E34 /* Pods_MSUMuesumApp.framework */,
+				1227D304234BDBF000862CEB /* SnapKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -314,23 +457,14 @@
 		12F18A0A22204B6100A9FA29 /* MSUMuesumApp */ = {
 			isa = PBXGroup;
 			children = (
+				12BD9ADB23468ABB0010D55F /* ViewControllers */,
 				1241C587225678D30033F060 /* models */,
 				1241C56F22566D130033F060 /* Networking */,
 				12F18A0B22204B6100A9FA29 /* AppDelegate.swift */,
-				12F18A0D22204B6100A9FA29 /* ViewController.swift */,
 				12F18A0F22204B6100A9FA29 /* Main.storyboard */,
 				12F18A1222204B6100A9FA29 /* Assets.xcassets */,
 				12F18A1422204B6100A9FA29 /* LaunchScreen.storyboard */,
 				12F18A1722204B6100A9FA29 /* Info.plist */,
-				12CB93302220520600DA3E34 /* HomeViewController.swift */,
-				1285DD91222459AF002F901E /* GalleriesViewController.swift */,
-				1285DD7D22243F71002F901E /* MuseumNavController.swift */,
-				1285DD9322246A4B002F901E /* MainColors.swift */,
-				12AEE43E2224CBAF006B097E /* ClosestExhibitViewController.swift */,
-				12AEE4532224DC48006B097E /* BottomClosestExhibitTabController.swift */,
-				126C0DEE22380E48007060CD /* ExhibitsViewController.swift */,
-				128E430622412A2000FE64EA /* HomeTableViewController.swift */,
-				1265CC0E225293E800F7ED83 /* ContainerViewController.swift */,
 			);
 			path = MSUMuesumApp;
 			sourceTree = "<group>";
@@ -484,11 +618,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		12AEE4692224DC49006B097E /* ESTabBarController_swift.framework */ = {
+		1227D304234BDBF000862CEB /* SnapKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = ESTabBarController_swift.framework;
-			remoteRef = 12AEE4682224DC49006B097E /* PBXContainerItemProxy */;
+			path = SnapKit.framework;
+			remoteRef = 1227D303234BDBF000862CEB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		12CB930322204DCB00DA3E34 /* MaterialComponents.framework */ = {
@@ -653,34 +787,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MSUMuesumApp/Pods-MSUMuesumApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
-				"${PODS_ROOT}/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework",
-				"${PODS_ROOT}/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework",
-				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
-				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
-				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
-				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
-				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
-				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-MSUMuesumApp/Pods-MSUMuesumApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EstimoteBluetoothScanning.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EstimoteProximitySDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-MSUMuesumApp/Pods-MSUMuesumApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -716,17 +827,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1241C58622566D4C0033F060 /* QueryService.swift in Sources */,
 				12F18A0E22204B6100A9FA29 /* ViewController.swift in Sources */,
 				1285DD92222459AF002F901E /* GalleriesViewController.swift in Sources */,
 				1285DD7E22243F71002F901E /* MuseumNavController.swift in Sources */,
+				12BD9AB4234518080010D55F /* Movie.swift in Sources */,
+				12BD9ACC2345183C0010D55F /* MovieEndPoint.swift in Sources */,
+				12C61B4023440E0500F0DED4 /* NetworkManager.swift in Sources */,
+				12BD9ADF2346927E0010D55F /* SpecificExhibitsViewController.swift in Sources */,
 				12F18A0C22204B6100A9FA29 /* AppDelegate.swift in Sources */,
-				128E430722412A2000FE64EA /* HomeTableViewController.swift in Sources */,
+				12BD9ACE234545900010D55F /* Museum.swift in Sources */,
+				12BD9ADA23467B020010D55F /* RoomModelController.swift in Sources */,
+				12BD9AD8234546EA0010D55F /* Image.swift in Sources */,
+				12BD9AD6234546CE0010D55F /* AppSection.swift in Sources */,
+				12C61B3E2344094100F0DED4 /* JSONParameterEncoder.swift in Sources */,
+				12BD9AD0234545E10010D55F /* RoomName.swift in Sources */,
+				12BD9AE22347B6A50010D55F /* SpinnerViewController.swift in Sources */,
+				12C61B302343EF2200F0DED4 /* EndPointType.swift in Sources */,
+				12D830AC234BA7940008DF6A /* RoomsViewController.swift in Sources */,
+				12C61B362343F21B00F0DED4 /* ParameterEncoding.swift in Sources */,
+				12C61B382343F69800F0DED4 /* URLParameterEncoder.swift in Sources */,
 				12AEE4542224DC48006B097E /* BottomClosestExhibitTabController.swift in Sources */,
+				12BD9ADD23468AF70010D55F /* FloorsViewController.swift in Sources */,
+				12C61B4223440F4C00F0DED4 /* RoomsEndpoint.swift in Sources */,
+				12BD9AE42347B9740010D55F /* ExhibitsTableViewController.swift in Sources */,
+				12BD9AD42345469E0010D55F /* Beacon.swift in Sources */,
+				12C61B322343F0FC00F0DED4 /* HTTPMethod.swift in Sources */,
+				12C61B442344120B00F0DED4 /* Rooms.swift in Sources */,
 				126C0DEF22380E48007060CD /* ExhibitsViewController.swift in Sources */,
+				12BD9AD2234545ED0010D55F /* Payload.swift in Sources */,
+				12C61B3C2343FAA600F0DED4 /* Router.swift in Sources */,
+				1227D30A234BF54600862CEB /* SingleExhibitViewController.swift in Sources */,
 				1285DD9422246A4B002F901E /* MainColors.swift in Sources */,
 				1265CBF8225291F400F7ED83 /* exhibit.swift in Sources */,
+				1227D308234BDDFE00862CEB /* Colors.swift in Sources */,
+				12C61B342343F16A00F0DED4 /* HTTPTask.swift in Sources */,
+				1227D306234BDC0E00862CEB /* ExhibitTableViewCell.swift in Sources */,
 				12AEE43F2224CBAF006B097E /* ClosestExhibitViewController.swift in Sources */,
+				12C61B3A2343F9F900F0DED4 /* NetworkRouter.swift in Sources */,
 				1265CC0F225293E800F7ED83 /* ContainerViewController.swift in Sources */,
 				12CB93312220520600DA3E34 /* HomeViewController.swift in Sources */,
 			);

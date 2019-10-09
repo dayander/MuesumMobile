@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7844FAD84700E7D4549B114DE1CE0F09"
+               BlueprintIdentifier = "FA10E5CDADF7D5CA8CAB40C0527A48EF"
+               BuildableName = "EstimoteBluetoothScanning"
                BlueprintName = "EstimoteBluetoothScanning"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "EstimoteBluetoothScanning">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

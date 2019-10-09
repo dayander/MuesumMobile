@@ -20,6 +20,31 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>example.com</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Allow MSU Museum to use Bluetooth in the background to let you see where you are in the museum.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We'll show you what the closest exhibits are. With the "always" option,
+        we can also alert you via notifications if you don't have the app open.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We'll show you what the closest exhibits are, and alert you via
+        notifications if you don't have the app open.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We'll show you what the closest exhibits are.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>bluetooth-central</string>
@@ -45,38 +70,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    
-    
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>We'll show you what the closest exhibits are.</string>
-    
-    <!-- iOS 10 or earlier -->
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>We'll show you what the closest exhibits are, and alert you via
-        notifications if you don't have the app open.</string>
-    
-    <!-- iOS 11 -->
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>We'll show you what the closest exhibits are. With the "always" option,
-        we can also alert you via notifications if you don't have the app open.</string>
-    
-    
-    
-    <key>NSAppTransportSecurity</key>
-    <dict>
-        <key>NSAllowsArbitraryLoads</key>
-        <true/>
-        <key>NSExceptionDomains</key>
-        <dict>
-            <key>example.com</key>
-            <dict>
-                <key>NSExceptionAllowsInsecureHTTPLoads</key>
-                <true/>
-                <key>NSIncludesSubdomains</key>
-                <true/>
-            </dict>
-        </dict>
-    </dict>
-   
 </dict>
 </plist>
